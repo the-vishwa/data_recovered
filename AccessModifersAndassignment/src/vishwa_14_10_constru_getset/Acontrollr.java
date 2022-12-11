@@ -12,7 +12,7 @@ public class Acontrollr {
 		A aa =new A(100,200);
 		
 		System.out.println(aa.a);
-		
+		System.out.println(aa.b);
 
 	}
 	

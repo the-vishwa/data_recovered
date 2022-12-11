@@ -15,8 +15,8 @@ public class Excontro {
 		//OR
 		
 		Example e = new Example();
-		System.out.println(e.a);
-		System.out.println(e.b);
+		//System.out.println(e.a);
+		//System.out.println(e.b);
 
 	}
 	

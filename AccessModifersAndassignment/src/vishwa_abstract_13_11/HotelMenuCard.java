@@ -1,6 +1,6 @@
-package vishwa_abstraction;
+package vishwa_abstract_13_11;
 
-abstract class HotelMenuCard {
+    abstract class HotelMenuCard {
 
 	abstract void coldCofee();
 

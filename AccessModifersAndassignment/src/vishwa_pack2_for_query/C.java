@@ -7,7 +7,7 @@ public class C {
 	public static void main(String[] args) {
 
 		A a = new A("Rajput", "Maharashtra");  //para constructor
-		A.cityName="Dondaicha";                // static city name
+		A.cityName="Dondaicha";  // static city name
 		A.setfName("Vishwa"); // static and private fname // static properties doesnt need set-get and para constru
 		
 	                                                          
