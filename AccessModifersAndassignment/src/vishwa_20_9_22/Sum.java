@@ -6,8 +6,8 @@ public class Sum {
 	int b;
 	
 	int sum() {
-		
-		int s = a+b;
+		int s = 100+100;
+	//	int s = a+b;
 		return s;
 	}
 	
@@ -28,7 +28,7 @@ class mult{
 	int a;
 	int b;
 	
-	int mult() {
+	public int mult() {
 		int t =a*b;
 		return t;
 		

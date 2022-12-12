@@ -3,7 +3,7 @@ package vishwa_Meth_and_RetrnType_27_9;
 public class B {
 
 	
-	A getAobj(){
+	public A getAobj(){
 		A a = new A();
          a.a=30;
          a.b=40;

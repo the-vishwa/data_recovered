@@ -7,23 +7,22 @@ public class ABCcontroller {
 	public static void main(String[] args) {
 		
 		A a = new A();
-		
 		a.a= 10;
 		a.b=20;
-		int s = a.sum();
-		System.out.println(s);
+		int x = a.sum();
+		System.out.println(x);
 		
 		
 		B b = new B();
 		A ss = b.getAobj();
-		int sss =  ss.sum();
-	    System.out.println(sss);
+		int y =  ss.sum();
+	    System.out.println(y);
 		      
 		
 	    C c = new C();
 	   A rrr = c.getAobj();
-	   int vvv = rrr.sum();
-	   System.out.println(vvv);
+	   int z = rrr.sum();
+	   System.out.println(z);
 	    
 	    
 	    

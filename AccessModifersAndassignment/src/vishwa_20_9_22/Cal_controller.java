@@ -4,9 +4,10 @@ public class Cal_controller {
 
 	public static void main(String[] args) {
 	Sum s = new Sum();
-		s.a=10;
-		s.b=20;
+//		s.a=10;
+//		s.b=20;
 		int p =s.sum();
+		
 		
 		
 	minus mi = new minus();

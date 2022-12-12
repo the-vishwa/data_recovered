@@ -6,7 +6,7 @@ public abstract class Father {
 	String where;
 	long expect;
 
-	abstract void getFuture(String homeName,int homeNumber);
+	abstract void getFuture(String name,int homeNumber);
 
 }
 class Son extends Father {
@@ -16,8 +16,8 @@ class Son extends Father {
 	long expect= 1500000l;
 	
 	
-	void getFuture(String homeName, int homeNumber) {
-		System.out.println(homeName);
+	void getFuture(String name, int homeNumber) {
+		System.out.println(name);
 		System.out.println(homeNumber);
 	
 	}
