@@ -8,14 +8,9 @@ public class Factory {
 	}
 
 	public static void main(String[] args) {
-		
-		Factory f= new Factory();
+
+		Factory f = new Factory();
 		f.m1();
-		
-		
+
 	}
 }
-	
-	
-	
-	

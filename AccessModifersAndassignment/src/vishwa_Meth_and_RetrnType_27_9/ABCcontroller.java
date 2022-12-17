@@ -17,7 +17,7 @@ public class ABCcontroller {
 		A ss = b.getAobj();
 		int y =  ss.sum();
 	    System.out.println(y);
-		      
+		//System.out.println(b.getAobj().ss.sum());     
 		
 	    C c = new C();
 	   A rrr = c.getAobj();

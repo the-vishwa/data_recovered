@@ -8,8 +8,8 @@ public class A {
 	A(){}
 	
 	A(int x,int y){
-		a=x;
-  	b=y;
+		 a=x;
+  	     b=y;
 		System.out.println(x);
 		System.out.println(y);
 	}
@@ -18,7 +18,5 @@ public class A {
 
 		a=x;
 		b=y;
-		
-		
 	}
 }

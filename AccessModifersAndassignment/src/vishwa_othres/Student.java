@@ -11,6 +11,8 @@ public class Student {
 		this.studentName = studentName;
 		this.subjectName = subjectName;
 		this.marks = marks;
+		
+		
 	}
 	
 	

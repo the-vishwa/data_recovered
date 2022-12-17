@@ -5,12 +5,12 @@ public class D {
 	final void m1() {
 		System.out.println("abc");
 	}
-	
+
 //
 //	void m2() {
 //		System.out.println("abc");
 //	}
-	
+
 }
 
 class E extends D {

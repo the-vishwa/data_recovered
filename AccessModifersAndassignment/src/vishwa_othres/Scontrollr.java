@@ -1,6 +1,6 @@
 package vishwa_othres;
 
-public class SScontrollr {
+public class Scontrollr {
 
 	public static void main(String[] args) {
 

@@ -21,13 +21,5 @@ class Son extends Father {
 		System.out.println(homeNumber);
 	
 	}
-	
-//public static void main(String[] args) {
-//		
-//		Son son = new Son();
-//		System.out.println(son.homeName);
-//		System.out.println(son.where);
-//		System.out.println(son.expect);
-//		son.getFuture();
-//	}
+
 }

@@ -3,9 +3,7 @@ package vishwa__set$get;
 public class BnkControllr {
 
 	public static void main(String[] args) {
-
 //		Bank[] bank = new Bank[4];
-//
 //		bank[0] = new Bank("ICICI", "pune", 1);
 //		bank[1] = new Bank("SBI", "mumbai", 2);
 //		bank[2] = new Bank("HDFC", "delhi", 3);
@@ -14,7 +12,9 @@ public class BnkControllr {
 		// OR with method see line no 19 in Bank class
 
 		Bank banks = new Bank();
-	    Bank[] bkbk = banks.getBankinfo();
+		                                                                //String a=banks.getBankName();
+		                                                                //System.out.println(banks.getBankName());
+	   Bank[] bkbk = banks.getBankinfo();
 		
 		for (int i = 0; i < bkbk.length; i++) {
 			System.out.println(bkbk[i].getBankName());

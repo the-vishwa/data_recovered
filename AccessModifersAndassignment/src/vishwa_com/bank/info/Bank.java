@@ -5,8 +5,6 @@ public class Bank {
 	private String bankName;
 	private String employeeName;
 	private int empId;
-	
-    
 
 	Bank() {
 	}

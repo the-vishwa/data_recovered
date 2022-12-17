@@ -8,15 +8,9 @@ public class Acontr {
 		a.setRamSize("4GB");
 
 		String r = a.getRamSize();
-		
-		
-		
-		
-		
 
 		System.out.println(r);
-		
-		
+
 	}
 
 }

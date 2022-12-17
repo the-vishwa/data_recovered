@@ -6,10 +6,13 @@ public class Fcontrollr {
 
 		Son son = new Son();
 		son.getFuture("Arrale", 55);
-
+		
+         System.out.println("_______");
+         
 		System.out.println(son.homeName);
 		System.out.println(son.where);
 		System.out.println(son.expect);
-
+		
+    
 	}
 }
