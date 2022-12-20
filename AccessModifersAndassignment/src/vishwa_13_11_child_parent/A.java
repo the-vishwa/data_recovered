@@ -10,6 +10,7 @@ public class A {
 	}
 }
 class B extends A{
+	@Override 
 	void m1() {
 		System.out.println("m1 child");
 	}
