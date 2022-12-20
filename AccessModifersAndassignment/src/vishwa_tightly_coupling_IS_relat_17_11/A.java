@@ -1,5 +1,5 @@
-package vishwa_tightly_coupling_17_11;
-
+package vishwa_tightly_coupling_IS_relat_17_11;
+// inheritance
 public class A { // Dependency class
 
 	// if A changed his method name as m2..then will impact on class B ........

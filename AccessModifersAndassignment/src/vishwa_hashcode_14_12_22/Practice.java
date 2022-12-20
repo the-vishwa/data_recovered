@@ -6,7 +6,7 @@ class A {
 
 	@Override
 	public String toString() {
-		return  "ans=" +this.x  + ",ans=" +this.y;
+		return  "x=" +this.x  + ",y=" +this.y;
 
 	}
 	@Override

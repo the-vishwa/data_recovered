@@ -30,6 +30,6 @@ class child extends Parent2{
 		System.out.println("here am a m4 method of child");
 	}
 	void m2() {
-		System.out.println("here am a m1 method of child");
+		System.out.println("here am a m2 method of child");
 	}
 }

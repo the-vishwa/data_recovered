@@ -1,4 +1,4 @@
-package vishwa_composition;
+package vishwa_18_11_inheritance_reuse;
 
 public class DoMinusOpertaion {
 

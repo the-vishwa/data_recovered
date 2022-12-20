@@ -1,6 +1,6 @@
 package vishwa_lang_pack;
 
-class A {
+class CCC{
  
 }
 
@@ -25,9 +25,9 @@ public class Test {
 
 	public static void main(String[] args) {
 
-		A a = new A();
-		A a1 = new A();
-		A a2 = a;
+		CCC a = new CCC();
+		CCC a1 = new CCC();
+		CCC a2 = a;
 		
 		System.out.println("-------------------");
 		System.out.println(a.hashCode());

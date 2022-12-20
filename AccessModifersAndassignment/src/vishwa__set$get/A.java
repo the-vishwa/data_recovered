@@ -31,7 +31,7 @@ public class A {
 		this.lname = lname;
 	}
 	
-	
+}
 	
 
 //		public static void main(String[] args) {
@@ -41,4 +41,4 @@ public class A {
 //		}
 //		
 	
-}
+
