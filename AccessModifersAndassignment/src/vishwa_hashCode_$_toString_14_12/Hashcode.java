@@ -3,6 +3,12 @@ package vishwa_hashCode_$_toString_14_12;
 class AAA {
 	int x;
 	int y;
+	
+	@Override
+	public int hashCode() {
+		
+		return x+y;
+	}
 }
 
 public class Hashcode {

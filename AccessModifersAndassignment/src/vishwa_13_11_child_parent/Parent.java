@@ -16,6 +16,9 @@ class Parent1 extends Parent{
 	void m2() {
 		System.out.println("here am a m2 method of parent1");
 	}
+	void m1() {
+		System.out.println("here am a m1 method of Parent1");
+	}
 }
 class Parent2 extends Parent1{
 	void m3() {

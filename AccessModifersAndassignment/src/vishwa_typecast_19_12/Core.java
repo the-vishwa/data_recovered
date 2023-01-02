@@ -4,7 +4,8 @@ class HP{
 	int a =10;
 	int b =20;
 	
-	void XY(Object obj) {
+	void DoOpration(Object obj) {
+		
 //		float f=36.4F;
 //		int a= (int)f;
 		
@@ -22,13 +23,14 @@ class A {
 
 public class Core {
 public static void main(String[] args) {
-	HP h = new  HP();
 	A a = new A();
-     a.m1();
-	h.XY(a);
 	
+	HP h = new  HP();
+	h.DoOpration(a); // or 
 	
-	A a1=a;
+	//h.DoOpration(new A());
+	
+	//A a1=a;
 	
 	
 	

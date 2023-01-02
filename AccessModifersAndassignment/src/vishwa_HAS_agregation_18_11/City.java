@@ -1,4 +1,5 @@
 package vishwa_HAS_agregation_18_11;
+
 // inheritance
 //HAS relationship
 class A {
@@ -29,24 +30,24 @@ class B {
 }
 
 class C {
-	int a = 10;
-	int b = 20;
-
-	int sum(int a, int b) {
-		int n = a + b;
-		return n;
-
+	void m2() {
+		B b = new B();
+		System.out.println(b.a);
+		System.out.println(b.b);
+		int r = b.minus(20, 30);
+//		System.out.println(r);
 	}
+
 }
 
 public class City {
 
 	public static void main(String[] args) {
-		B b = new B();
-		
 		C c = new C();
+		c.m2();
 
-		A a = new A(b, c);
+	A a = new A(b, c);
+	
 
 	}
 

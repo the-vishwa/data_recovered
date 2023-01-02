@@ -32,6 +32,7 @@ class Z {
 	@Override
 	public String toString() {
 		return "Z [x=" + x + ", y=" + y + "]";
+		// or  // return  "x=" +this.x  + ",y=" +this.y;
 	}
 	public int hashCode() {
 		return this.x + this.y;
