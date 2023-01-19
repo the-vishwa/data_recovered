@@ -35,15 +35,21 @@ public class DemoWithStudent {
 		Student s1 = new Student("nirmal", 60.60);
 		Student s2 = new Student("kudip", 65.60);
 		Student s3 = new Student("premjit", 70.60);
-		Predicate<Student> check = el -> {
-			if (el.getPercentage() > 61.0) {
+		Predicate<Student> check = t -> {
+			if (t.getPercentage() > 61.0) {
 				return true;
 			} else {
 				return false;
 			}
 
 		};
-		System.out.println(check.check(s1)); // test metghod
+		System.out.println(check.check(s2)); // test metghod
 	}
 
 }
+
+
+
+
+
+
