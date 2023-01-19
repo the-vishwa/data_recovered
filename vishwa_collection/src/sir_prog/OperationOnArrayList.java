@@ -30,17 +30,17 @@ public class OperationOnArrayList {
 		insertObjectInAL(list, new Student(10, "J", 45.90));
 	}
 	
-	void printResult(ResultSet result) {
+	void printResult(ResultSet r) {
 		System.out.println("A+ student list");
-		System.out.println(result.classA1);
+		System.out.println(r.classA1);
 		
 		System.out.println("A student list");
-		System.out.println(result.classA);
+		System.out.println(r.classA);
 		
 		System.out.println("B student list");
-		System.out.println(result.classB);
+		System.out.println(r.classB);
 		
 		System.out.println("C student list");
-		System.out.println(result.classC);
+		System.out.println(r.classC);
 	}
 }

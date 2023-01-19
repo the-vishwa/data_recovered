@@ -3,12 +3,8 @@ package vishwa_assign;
 import java.util.Iterator;
 import java.util.LinkedList;
 
-//check 700 frequency // count of 700
-
 // delete 300
-
 // update 7000 >> replace 701
-
 public class CrudOpt {
 
 	LinkedList<Integer> list;
@@ -38,7 +34,7 @@ public class CrudOpt {
 
 	public static void main(String[] args) {
 		CrudOpt c = new CrudOpt();
-		System.out.println(c.isObjectExit(10));
+		System.out.println(c.isObjectExit(100));
 
 	}
 

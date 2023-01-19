@@ -4,9 +4,9 @@ import java.util.ArrayList;
 import java.util.Iterator;
 
 class Student {
-	String name;
-	Integer age;
-	String place;
+	private String name;
+	private Integer age;
+	private String place;
 
 	public Student() {
 
@@ -63,18 +63,6 @@ class Student {
 		}
 
 	}
-
-	void printResult(Result r) {
-		System.out.println("Voter list");
-		System.out.println(r.TheyCanVote);
-
-		System.out.println("Non Voter list");
-		System.out.println(r.TheyCantVote);
-
-		System.out.println("Kid list");
-		System.out.println(r.Kid);
-	}
-
 	public String getName() {
 		return name;
 	}

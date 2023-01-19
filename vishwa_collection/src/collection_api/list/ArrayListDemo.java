@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
 
-import vishwa_9_1_23.Product;
+import vishwa_assign.Product;
 
 public class ArrayListDemo {
 

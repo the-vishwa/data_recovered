@@ -21,6 +21,7 @@ public class DDD {
 
 	// delete 300
 	public void ObjectRemove(Integer obj) {
+		System.out.println(list);
 		Iterator<Integer> itr = list.iterator();
 		while (itr.hasNext()) {
 			Integer i = itr.next();
@@ -38,5 +39,3 @@ public class DDD {
 	}
 
 }
-
-// update 7000 >> replace 701

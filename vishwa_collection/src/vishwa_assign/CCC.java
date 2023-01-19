@@ -17,7 +17,7 @@ public class CCC {
 		list.add(800);
 	}
 
-	// check 700 frequency // count of 700 how much time 700 is there
+	// check 700 frequency /count of 700 how much time 700 is there
 	Integer isObjectExit(Integer obj) {
 		int cnt = 0;
 		Iterator<Integer> itr = list.iterator();
@@ -35,8 +35,6 @@ public class CCC {
 		CCC c = new CCC();
 		Integer cc = c.isObjectExit(100);
 		System.out.println(cc);
-		
-	
-		
+
 	}
 }

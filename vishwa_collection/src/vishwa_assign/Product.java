@@ -1,4 +1,4 @@
-package vishwa_9_1_23;
+package vishwa_assign;
 
 public class Product {
 
