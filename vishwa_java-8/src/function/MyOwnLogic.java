@@ -9,5 +9,9 @@ public class MyOwnLogic {
 		};
 		Thread t = new Thread(r);
 		t.start();
+	
+	
+		
+		
 	}
 }

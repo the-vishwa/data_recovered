@@ -28,15 +28,15 @@ public class EqualsMethod {
 		System.out.println(vv.equals(w)); // no C.E coz relation built coz of equal method but ans is false 
 		System.out.println(vv==obj); // here anyone can compare with obj no C.E _// true
 		// see one ref variablbe pointing to same  abject ans willbe true
-		System.out.println(p==q); //class PP and QQ has a relation thats y its not showin C.E 
+		System.out.println(p==q); //class PP and QQ has a relation thats y its not showin C.E  but false
 System.out.println("__________________________________________");
 		 PP pp=p;
         System.out.println(pp.equals(p));// true  or (pp == p); 
         
         MM mm = new MM();
         NN nn = new NN();
-      //  System.out.println(mm==nn); // it will show error but if we want to build reltn btwn thses 2 objcts
-        System.out.println(mm.equals(nn)); //then use equal method 
+        //System.out.println(mm==nn); // it will show error but if we want to build reltn btwn thses 2 objcts
+        System.out.println(mm.equals(nn)); //then use equal method  // false
         MM m1 = new MM();
         System.out.println(mm==m1);
         System.out.println(mm.equals(m1));

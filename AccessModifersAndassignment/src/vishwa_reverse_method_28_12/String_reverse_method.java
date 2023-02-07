@@ -10,10 +10,6 @@ public class String_reverse_method {
 			rev = rev + c;
 		}
 		System.out.println(rev);
-
-		
-		
-		
 		
 		// string Buffer have reverse method
 		String s1 = "hi hello";
@@ -30,3 +26,17 @@ public class String_reverse_method {
 	
 	}
 }
+
+
+// String sr = ""abc";
+//String sr1 = String.valueOf("abc");
+// String sr2 = new String ("abc");
+//String dw = new String();
+
+
+
+
+
+
+
+

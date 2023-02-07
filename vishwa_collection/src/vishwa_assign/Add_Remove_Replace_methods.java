@@ -29,18 +29,25 @@ public class Add_Remove_Replace_methods {
 		System.out.println(list);
 		return bbb;
 	}
+	//update
+	Boolean update(Integer obj) {
+		boolean bb = list.add(obj);
+		return bb;
+	}
 //	Boolean objectReplace(Integer obj) {
 //		boolean bbb = list.set(0, obj)
 //		System.out.println(list);
 //		return bbb;
 //	}
 	
+	
+	
 	public static void main(String[] args) {
 		Add_Remove_Replace_methods arr = new Add_Remove_Replace_methods();
 		System.out.println(arr.objectAdd(700));
 		System.out.println(arr.objectExist(100));
 		System.out.println(arr.objectRemove(200));
-
+		System.out.println(arr.update(700));
 	}
 
 }

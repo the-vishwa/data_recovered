@@ -6,7 +6,7 @@ import java.util.LinkedList;
 
 public class DDD {
 
-	LinkedList<Integer> list;
+	LinkedList<Integer> list;//=new LinkedList<>();
 
 	public DDD() {
 		list = new LinkedList<>();

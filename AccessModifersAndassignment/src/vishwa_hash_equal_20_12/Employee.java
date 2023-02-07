@@ -5,17 +5,18 @@ public class Employee {
 	private Integer empid;
 
 	public int hashCode() {
-		
+
 		return this.empid.hashCode() + this.name.hashCode();
+
 	}
 
-	public boolean equals(Object obj) {
-	Employee e = (Employee)obj;
-	if (this.name.equals(e.name)&&  this.empid.equals(e.empid)) {
-		return true;
-		}
-		return false;
-	}
+//	public boolean equals(Object obj) {
+//		Employee e = (Employee) obj;
+//		if (this.name.equals(e.name) && this.empid.equals(e.empid)) {
+//			return true;
+//		}
+//		return false;
+//	}
 
 	public String getName() {
 		return name;

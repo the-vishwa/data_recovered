@@ -25,7 +25,7 @@ class BBC {
 	@Override
 	public int hashCode() {
 		
-		return this.x+this.y+123456;
+		return this.x + this.y+123456;
 	}
 
 }

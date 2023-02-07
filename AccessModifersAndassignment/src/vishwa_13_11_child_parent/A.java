@@ -1,5 +1,6 @@
 package vishwa_13_11_child_parent;
-
+// see 19/12/22 vdo from 21 min
+	
 public class A {
 
 	void m1() {
@@ -17,5 +18,4 @@ class B extends A{
 	void m3() {
 		System.out.println("m3 child");
 	}
-	
 }

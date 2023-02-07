@@ -10,10 +10,11 @@ public static void main(String[] args) {
 	ll.add("nirmal");
 	ll.add("kuldip");
 	ll.add("premjit");
+
 	System.out.println(ll);
 	System.out.println(ll.contains("sachin sir"));
 	System.out.println(ll.size());
-	System.out.println(ll.remove(4)); // with what is removed 
+	System.out.println(ll.remove(3)); // with what is removed 
 	System.out.println(ll.size());
 	System.out.println(ll);
 	

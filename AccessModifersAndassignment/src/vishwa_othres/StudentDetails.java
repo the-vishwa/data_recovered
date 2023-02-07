@@ -12,7 +12,7 @@ public class StudentDetails {
 		
 		String  studentName [] = { "vishwa", "nirmal", "kuldip", "premjit" };
 		String  subjName[]  = { "english", "history", "marathi", "sanskrit" };
-		int marks[]  = { 90, 80, 70, 60 };
+		 int marks[]  = { 90, 80, 70, 60 };
 		
 		for (int i = 0; i < studentName.length; i++) {
 			System.out.println(studentName[i]);

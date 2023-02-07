@@ -13,9 +13,16 @@ class Student {
 	}
 
 	public int hashCode() {
-		return this.rollNumber;
-
+		String str=(String)this.name;
+		System.out.println(str);
+		return this.rollNumber; //+this.rollNumber;
 	}
+
+//	@Override
+//	public String toString() {
+//		return "Student [name=" + name + "]";
+//	}
+	
 }
 
 public class Test {

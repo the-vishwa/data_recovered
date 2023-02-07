@@ -24,13 +24,16 @@ public static void main(String[] args) {
 	Para p = new Para ();
 	p.x=10;  p.y=20;
 	Para p1 = new Para();
+	//p1.x=10;  p1.y=20;
 	p1.x=20;  p1.y=10;
 	
 	
-	System.out.println(p.equals(p1)); // data arent  same 
+	System.out.println(p.equals(p1)); // data aren't  same // false
+	
 	
 	System.out.println(p.hashCode());
 	System.out.println(p1.hashCode());
+	
 	System.out.println(p.hashCode()==p1.hashCode());
 	
 }
